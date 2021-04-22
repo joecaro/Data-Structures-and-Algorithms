@@ -1,4 +1,4 @@
-const program = require("../LinkedList/Remove_Duplicates");
+const program = require("../LinkedList/removeDuplicates");
 
 class LinkedList extends program.LinkedList {
   addMany(values) {

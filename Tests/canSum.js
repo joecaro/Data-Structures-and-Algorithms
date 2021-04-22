@@ -1,4 +1,4 @@
-const { canSum } = require("../Dynamic_Programming/Can_Sum");
+const { canSum } = require("../Dynamic_Programming/canSum");
 
 tests = [
   {

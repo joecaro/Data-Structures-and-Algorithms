@@ -1,4 +1,4 @@
-const { rightSmallerThan } = require("../Arrays/Amount_Right_Smaller");
+const { rightSmallerThan } = require("../Arrays/amountRightSmaller");
 
 tests = [
   { array: [8, 5, 11, -1, 3, 4, 2], answer: [5, 4, 4, 0, 1, 1, 0] },

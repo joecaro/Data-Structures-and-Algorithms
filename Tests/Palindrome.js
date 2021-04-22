@@ -1,4 +1,4 @@
-const { isPalindrome } = require("../strings/Palindrome_Check");
+const { isPalindrome } = require("../strings/palindromeCheck");
 
 const tests = [
   { string: "abcba" },

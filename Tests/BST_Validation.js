@@ -1,4 +1,4 @@
-const program = require("../Binary_Search_Tree/BST_Validation");
+const program = require("../Binary_Search_Tree/BstValidation");
 
 class BST extends program.BST {
   insert(value) {
