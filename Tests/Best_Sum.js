@@ -1,11 +1,11 @@
-const { howSum } = require("../Dynamic_Programming/howSum");
+const { bestSum } = require("../Dynamic_Programming/bestSum");
 const { compareArrays } = require("./lib/compareArrays");
 
 tests = [
   {
     targetSum: 10,
     array: [4, 2, 5],
-    expected: [2, 4, 4],
+    expected: [5, 5],
   },
   {
     targetSum: 10,
@@ -17,10 +17,15 @@ tests = [
     array: [],
     expected: null,
   },
+  {
+    targetSum: 11,
+    array: [3, 5],
+    expected: [5, 3, 3],
+  },
 ];
 
 function testFunc(test) {
-  const userResult = howSum(test.targetSum, test.array);
+  const userResult = bestSum(test.targetSum, test.array);
   const expectedResult = test.expected;
   if (expectedResult === null) {
     if (userResult === null) {
